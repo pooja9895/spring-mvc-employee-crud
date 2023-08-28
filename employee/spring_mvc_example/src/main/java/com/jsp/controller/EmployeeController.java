@@ -14,10 +14,11 @@ import com.jsp.dto.Employee;
 
 @RestController
 public class EmployeeController {
-	
+	// autowiring
 	@Autowired
 	EmployeeDao dao;
-	
+	// request mapping
+	// new comment
 	@RequestMapping("/emp")
 	public ModelAndView getEmployee()
 	{
